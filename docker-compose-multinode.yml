@@ -16,8 +16,8 @@ services:
       context: .
       dockerfile: Dockerfile.hubble
     ports:
-      - '2282:2282'
-      - '2283:2283'
+      - '54908:2282'
+      - '59041:2283'
     command:
       [
 	"node", 
@@ -47,8 +47,8 @@ services:
       context: .
       dockerfile: Dockerfile.hubble
     ports:
-      - '2284:2284'
-      - '2285:2285'
+      - '46323:2284'
+      - '20126:2285'
     command:
       [
 	"node", 
